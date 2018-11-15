@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { createQuestion } from '../../../utils/helpers'
 import Question from '../components/Question'
-import { Button, Input, Label } from 'semantic-ui-react'
+import { Button, Input } from 'semantic-ui-react'
 import { setItem, getItem } from '../../../utils/localStorage'
 import { FUZE_FORM_KEY } from '../constants'
 
