@@ -1,0 +1,25 @@
+{
+  "extends": ["standard", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/prop-types": 0,
+    "comma-dangle": [2, "always-multiline"],
+    "no-underscore-dangle": 0,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
+    "semi": ["error", "never"],
+    "linebreak-style": "off"
+  },
+  "globals": {
+    "document": true,
+    "it": true,
+    "window": true
+  }
+}

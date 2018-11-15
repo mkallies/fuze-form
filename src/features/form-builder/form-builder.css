@@ -1,0 +1,136 @@
+.question__container {
+  background: #fff;
+  width: 450px;
+  display: flex;
+  flex-flow: wrap;
+  padding: 10px;
+  border: 1px solid #15a4fa;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.question__title {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.question__option {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.form__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar__container {
+  background-color: #333c4e !important;
+  height: 100%;
+}
+
+.sidebar__item {
+  font-size: 16px;
+  color: #808da4 !important;
+  font-weight: bold;
+  border-top: 1px solid #808da4;
+  border-bottom: 1px solid #808da4;
+}
+
+.sidebar__item:hover,
+.active.sidebar__item {
+  background-color: #293140;
+  color: #fff !important;
+}
+
+.question__title__input {
+  border-bottom: 1px solid black;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.question__add-option {
+  margin-left: 22px !important;
+}
+
+.form__right-side {
+  background: #e8f0fa;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  overflow: auto;
+}
+
+.sidebar__logo {
+  font-size: 20px;
+  background: #15a4fa;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.sidebar__logo__bold {
+  font-weight: bold;
+}
+
+.form__button-group {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
+
+.question__container .input {
+  width: 80%;
+}
+
+.question__option-container {
+  width: 100%;
+  padding: 2px;
+}
+
+.form__form-title {
+  background: white;
+  width: 450px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.preview__container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.preview__list-container {
+  width: 50%;
+  background: #fff;
+  color: black;
+  border: 1px solid #15a4fa;
+}
+
+.preview__form-list {
+  width: 50%;
+}
+
+.preview__form-container {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.ui.radio.checkbox {
+  width: 100%;
+}
+
+.question__option-container.preview {
+  margin-top: 10px;
+}
